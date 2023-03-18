@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js" defer></script>
+    <title>My Site</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">family_farm</div>
+            <a href="#about"><div class="header-item">About</div></a>
+            <a href="#features"><div class="header-item">Features</div></a>
+            <a href="#subscribe"><div class="header-item">Subscribe</div></a>
+            <a target="_blank" href="https://t.me/Valik1988_bot"><div class="header-item">Open BOT</div></a>
+        </div>
+    </header>
+    <div class="content">
+        <div id="about">
+            <div class="about-item odd">
+                <div class="about-photo"><img src="img/bee1.jpg"/></div>
+                <div class="about-text">Ведення сімейної бухгалтерії</div>
+            </div>
+            <div class="about-item even">
+                <div class="about-text">Контроль комунальних витрат</div>
+                <div class="about-photo"><img src="img/bee2.jpg"/></div>
+            </div>
+            <div class="about-item odd">
+                <div class="about-photo"><img src="img/bee3.jpg"/></div>
+                <div class="about-text">Організація домашніх справ</div>
+            </div>
+        </div>
+        <hr>
+        <div id="features">
+            <div class="feature">
+                <h2 id="feature-title">title</h2>
+                <img id="feature-image" src="">
+                <p id="feature-description">description</p>
+            </div>
+        </div>
+        <hr>
+        <div id="subscribe">
+            <div class="subscribe-text">Підпишися</div>
+            <div class="subscribe-form">
+                <form name="robot-form" action="/register" method="POST">
+                    <input name="first-name" type="text" placeholder="First Name">
+                    <input name="email" type="email" placeholder="Email" >
+                    <input name="password" type="password" placeholder="Password">
+                    <button id="submit-form" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <div class="footer-container">
+            <div class="footer-item">0676261726@ukr.net</div>
+            <div class="footer-item"><a target="_blank" href="https://google.com">LinkedIn</a></div>
+            <div class="footer-item"><a target="_blank" href="https://google.com">GitHub</a></div>
+            <div class="footer-item"><a target="_blank" href="https://google.com">Cookie Policy</a></div>
+        </div>
+    </footer>
+</body>
+</html>
